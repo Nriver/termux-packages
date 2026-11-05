@@ -483,7 +483,7 @@ for package_arch in "${TERMUX_ARCHITECTURES[@]}"; do
 	pull_package proot
 	pull_package busybox
 	pull_package tar
-	pull_package virglrenderer-android
+#	pull_package virglrenderer-android
 	# Handle additional packages.
 	for add_pkg in "${ADDITIONAL_PACKAGES[@]}"; do
 		pull_package "$add_pkg"
